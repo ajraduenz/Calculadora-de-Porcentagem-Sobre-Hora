@@ -1,0 +1,87 @@
+body{
+    /*background: blue; configurações de toda a área do site*/
+    font: normal 15pt Verdana;
+}
+header{
+    color: rgba(255, 255, 255, 0.904);/*configurações do título*/
+    text-align: center;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.644)
+}
+section{
+    background: rgba(255, 255, 255, 0.911);/*configurações da area section*/
+    border-radius: 10px;/*arredondamento*/
+    padding: 15px;/*alargamento pra cima e baixo*/
+    width: 400px;/*largura*/
+    margin: 0 auto 0 auto; text-align: center; /*centralizar*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.644);/*sombra Deslocamento: LATERAL VERTICAL E ESPALHAMENTO*/
+}
+section#segundo{
+    background: rgb(119, 118, 118);/*configurações da area section*/
+    border-radius: 10px;/*arredondamento*/
+    padding: 15px;/*alargamento pra cima e baixo*/
+    width: 400px;/*largura*/
+    margin-left: 0px; text-align: center; /*centralizar*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.644);/*sombra Deslocamento: LATERAL VERTICAL E ESPALHAMENTO*/
+}
+input#porcentagem{
+    width: 50px;
+}
+input#Banco{
+    width: 350px;
+    text-align: center;
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: rgb(189, 184, 171);
+    font-size: 18px;
+}
+input#Calcular{
+    width: 350px;
+    text-align: center;
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: rgb(189, 184, 171);
+    font-size: 18px;
+}
+input#Calcular:active{
+    position: relative;
+    top: 2px;
+}
+input#Zerar{
+    width: 350px;
+    text-align: center;
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: rgb(189, 184, 171);
+    font-size: 18px;
+}
+input#Zerar:active{
+    position: relative;
+    top: 2px;
+}
+input#ConsultarBanco{
+    width: 350px;
+    text-align: center;
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: rgb(189, 184, 171);
+    font-size: 18px;
+}
+select#lista{
+    width: 150px;
+}
+footer{
+    color: rgba(0, 0, 0, 0.87);/*configurações do rodapé*/
+    
+    font-style: italic;
+    font: normal 12pt sans-serif;
+    position:absolute;
+    bottom:0;
+    width:80%;
+
+}
+
+
