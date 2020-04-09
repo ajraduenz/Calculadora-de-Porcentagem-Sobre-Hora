@@ -1,32 +1,54 @@
 body{
-    /*background: blue; configurações de toda a área do site*/
     font: normal 15pt Verdana;
+    background-image: url("./Relogio.jpg");
+    margin: 0px;
+    padding: 0px;
 }
-header{
-    color: rgba(255, 255, 255, 0.904);/*configurações do título*/
+
+div#título{
+    font: normal 15pt Verdana;
+    background-color: rgb(0, 0, 0);
+    color: rgba(255, 255, 255, 0.904);
     text-align: center;
-    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.644)
+    margin: 0px;
+    padding: 10px;
+    height: auto;
+    
 }
+div#conteúdo{
+    padding: 20px;
+}
+ul {   
+    margin: 0px;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.904);
+    vertical-align: top;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    width: auto;
+    height: 100%;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: expanded
+  }
+ul li a{
+    color: rgba(255, 255, 255, 0.904);
+}
+
+
 section{
-    background: rgba(255, 255, 255, 0.911);/*configurações da area section*/
+    background: rgba(255, 255, 255, 0.911);
     border-radius: 10px;/*arredondamento*/
-    padding: 15px;/*alargamento pra cima e baixo*/
-    width: 400px;/*largura*/
-    margin: 0 auto 0 auto; text-align: center; /*centralizar*/
+    padding: 15px;
+    width: 400px;
+    margin: 0 auto 0 auto; text-align: center; 
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.644);/*sombra Deslocamento: LATERAL VERTICAL E ESPALHAMENTO*/
 }
-section#segundo{
-    background: rgb(119, 118, 118);/*configurações da area section*/
-    border-radius: 10px;/*arredondamento*/
-    padding: 15px;/*alargamento pra cima e baixo*/
-    width: 400px;/*largura*/
-    margin-left: 0px; text-align: center; /*centralizar*/
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.644);/*sombra Deslocamento: LATERAL VERTICAL E ESPALHAMENTO*/
-}
+
 input#porcentagem{
     width: 50px;
 }
-input#Banco{
+/* input#Banco{
     width: 350px;
     text-align: center;
     padding: 15px 20px;
@@ -34,7 +56,7 @@ input#Banco{
     border-radius: 6px;
     background-color: rgb(189, 184, 171);
     font-size: 18px;
-}
+} */
 input#Calcular{
     width: 350px;
     text-align: center;
@@ -61,7 +83,7 @@ input#Zerar:active{
     position: relative;
     top: 2px;
 }
-input#ConsultarBanco{
+/* input#ConsultarBanco{
     width: 350px;
     text-align: center;
     padding: 15px 20px;
@@ -69,19 +91,17 @@ input#ConsultarBanco{
     border-radius: 6px;
     background-color: rgb(189, 184, 171);
     font-size: 18px;
-}
+} */
 select#lista{
     width: 150px;
 }
-footer{
-    color: rgba(0, 0, 0, 0.87);/*configurações do rodapé*/
-    
+/* footer{
+    color: rgba(0, 0, 0, 0.87);    
     font-style: italic;
     font: normal 12pt sans-serif;
     position:absolute;
     bottom:0;
     width:80%;
-
-}
+} */
 
 
