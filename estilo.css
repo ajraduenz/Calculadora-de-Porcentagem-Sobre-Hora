@@ -1,8 +1,9 @@
 body{
     font: normal 15pt Verdana;
-    background-image: url("./Relogio.jpg");
+    /* background-image: url("./Relogio.jpg"); */
     margin: 0px;
     padding: 0px;
+    background-color: aqua;
 }
 
 div#título{
@@ -11,12 +12,17 @@ div#título{
     color: rgba(255, 255, 255, 0.904);
     text-align: center;
     margin: 0px;
-    padding: 10px;
-    height: auto;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   
     
 }
+
 div#conteúdo{
-    padding: 20px;
+    padding: 0px, 0px;
+    display: flex;
+    width: 90%;    
 }
 ul {   
     margin: 0px;
@@ -37,30 +43,22 @@ ul li a{
 
 
 section{
-    background: rgba(255, 255, 255, 0.911);
-    border-radius: 10px;/*arredondamento*/
-    padding: 15px;
-    width: 400px;
-    margin: 0 auto 0 auto; text-align: center; 
+    background: rgba(255, 255, 255, 0.89);
+    /* border-radius: 10px;arredondamento */
+    padding: 15px; 
+    margin: 0 auto 0 auto; 
+    text-align: center; 
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.644);/*sombra Deslocamento: LATERAL VERTICAL E ESPALHAMENTO*/
 }
 
 input#porcentagem{
     width: 50px;
 }
-/* input#Banco{
-    width: 350px;
-    text-align: center;
-    padding: 15px 20px;
-    border: 1px solid #eee;
-    border-radius: 6px;
-    background-color: rgb(189, 184, 171);
-    font-size: 18px;
-} */
+
 input#Calcular{
-    width: 350px;
+    width: 150px;
     text-align: center;
-    padding: 15px 20px;
+    padding: 7px 5px;
     border: 1px solid #eee;
     border-radius: 6px;
     background-color: rgb(189, 184, 171);
@@ -70,31 +68,34 @@ input#Calcular:active{
     position: relative;
     top: 2px;
 }
-input#Zerar{
-    width: 350px;
+input#ZerarTudo{
+    width: 150px;
     text-align: center;
-    padding: 15px 20px;
+    padding: 7px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: rgb(255, 88, 88);
+    font-size: 18px;
+    
+}
+input#Zerar{
+    width: 150px;
+    text-align: center;
+    padding: 7px 20px;
     border: 1px solid #eee;
     border-radius: 6px;
     background-color: rgb(189, 184, 171);
     font-size: 18px;
 }
-input#Zerar:active{
+input#Zerar:active, input#ZerarTudo:active{
     position: relative;
     top: 2px;
 }
-/* input#ConsultarBanco{
-    width: 350px;
-    text-align: center;
-    padding: 15px 20px;
-    border: 1px solid #eee;
-    border-radius: 6px;
-    background-color: rgb(189, 184, 171);
-    font-size: 18px;
-} */
+
 select#lista{
     width: 150px;
 }
+
 /* footer{
     color: rgba(0, 0, 0, 0.87);    
     font-style: italic;
@@ -105,3 +106,21 @@ select#lista{
 } */
 
 
+/* input#ConsultarBanco{
+    width: 350px;
+    text-align: center;
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: rgb(189, 184, 171);
+    font-size: 18px;
+} */
+/* input#Banco{
+    width: 350px;
+    text-align: center;
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: rgb(189, 184, 171);
+    font-size: 18px;
+} */

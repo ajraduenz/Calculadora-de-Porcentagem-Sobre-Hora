@@ -42,8 +42,9 @@ function Calcular() {
                 minutofinal2 = "0" + String(minutofinal2)
             }
 
-            res1.innerHTML = (`<p><input type="button" value="Zerar" id="Zerar" onclick="Zerar()"></p>`)
-            res1.innerHTML += (`${porcentagem}% de ${String(f0[0])}:${String(f0[1])} equivale a ${(horadaporcentagem2)}:${(mindaporcentagem2)}. <p><b>TOTAL ${(horafinal2)}:${(minutofinal2)}</b></p>`)
+            res1.innerHTML = (`<p><input type="button" value="Zerar Hora" id="Zerar" onclick="Zerar()"></p>`)
+            res1.innerHTML += (`<p><input type="button" value="Zerar Tudo" id="ZerarTudo" onclick="ZerarTudo()"></p>`)
+            res2.innerHTML += (`${porcentagem}% de ${String(f0[0])}:${String(f0[1])} equivale a ${(horadaporcentagem2)}:${(mindaporcentagem2)}. <p><b>TOTAL ${(horafinal2)}:${(minutofinal2)}</b></p>`)
             //res1.innerHTML += (`<p><input type="button" value="Adicionar ${(horafinal2)}:${(minutofinal2)} ao meu banco de horas" id="Banco" onclick="Banco()"></p>`)
 
         }
@@ -56,6 +57,17 @@ function Zerar() {
     var res1 = document.getElementById("res1")
     var porcentagem = Number(document.getElementById("porcentagem").value)
     hora.value = ""
+    hora.focus()
+
+}
+function ZerarTudo(){
+    var hora = document.getElementById("hora")
+    var res1 = document.getElementById("res1")
+    var res2 = document.getElementById("res2")
+    var porcentagem = Number(document.getElementById("porcentagem").value)
+    hora.value = ""
+    res1.innerHTML = ""
+    res2.innerHTML = ""
     hora.focus()
 
 }
